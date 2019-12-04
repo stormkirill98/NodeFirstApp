@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "run": "node app.js"
+    "run": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.1",
     "sys": "0.0.1"
   }
 }
