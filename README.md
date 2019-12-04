@@ -1,6 +1,7 @@
 # NodeFirstApp
 
 ###Example save data
+```js
 var bodyJSON = JSON.stringify({
 "first_name": "Oleg",
 "last_name": "Sokolov",
@@ -21,3 +22,4 @@ fetch("http://localhost:8080/save", {
     	console.log(response.statusText);
     }
 });
+```
